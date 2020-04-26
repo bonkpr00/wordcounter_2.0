@@ -3,7 +3,7 @@ import sys
 import argparse
 
 
-stranka = urllib.request.urlopen('http://www.py.cz/PythonZaciname')
+stranka = urllib.request.urlopen('https://www.novinky.cz/koronavirus/clanek/vedci-ve-wu-chanu-delali-s-koronavirem-absolutni-silenosti-tvrdi-predni-rusky-mikrobiolog-40321795')
 obsah_stranky = stranka.read()
 obsah_stranky_dekodovany = obsah_stranky.decode('utf-8')
 stranka.close()
